@@ -1,0 +1,46 @@
+.history {
+  font-size : 35px;
+}
+
+.history ul {
+  width : 50%;
+}
+
+.history li:before {
+  content : "";
+}
+
+.history dt:before{
+  content : "\02605 \0020";
+}
+
+.history dt {
+  display : inline;
+  font-weight : bold;
+}
+
+.history dd {
+  font-style : italic;
+}
+
+.crackronym {
+  font-size : 100px;
+}
+
+.crackronym strong{
+  font-family : 'LeagueGothic';
+}
+
+.tag {
+  font-size : 215px;
+  padding : 0;
+  margin : 0;
+}
+
+.small-tag {
+  font-size : 100px;
+}
+
+.blur {
+  color : #888;
+}

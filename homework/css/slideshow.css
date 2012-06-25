@@ -1,0 +1,90 @@
+html {
+  height : 100%;
+  width : 100%;
+}
+
+body {
+  color : #000;
+  font-family : "fjord", Arial, sans-serif;
+  font-size : 30px;
+}
+
+a {
+  color : #222;
+  border-bottom : 1px dashed;
+  text-decoration : none;
+  -webkit-transition : all .5s ease;
+     -moz-transition : all .5s ease;
+      -ms-transition : all .5s ease;
+       -o-transition : all .5s ease;
+          transition : all .5s ease;
+}
+
+a:hover {
+  color : #ff437b;
+  -webkit-transition : all .5s ease;
+     -moz-transition : all .5s ease;
+      -ms-transition : all .5s ease;
+       -o-transition : all .5s ease;
+          transition : all .5s ease;
+}
+
+.slide {
+  min-height : 500px;
+  text-align : center;
+  width : 1200px;
+}
+
+.slide .title {
+  font-family : 'LeagueGothic';
+  font-size : 175px;
+  margin : .5em 0 0;
+}
+
+.title a {
+  border-bottom : 4px dashed;
+}
+
+.slide .huge {
+  font-size : 300px;
+}
+
+.slide .fancy {
+  font-family : Georgia, serif;
+  font-style : italic;
+  font-size : 100px;
+  margin-top : 2em;
+}
+
+.slide .no-space {
+  padding : 0;
+  margin : 0;
+}
+
+.slide .sub-text {
+  font-size : 45px;
+}
+
+.slide ul {
+  list-style-type : none;
+  margin : 0 auto;
+  padding-left : 1em;
+  text-align : left;
+  width : 60%;
+}
+
+.code {
+  background-color : #444;
+   -webkit-box-shadow: 9px 9px 25px hsla(0, 0%, 0%, .45); /* Saf3.0+, Chrome */
+       -moz-box-shadow: 9px 9px 25px hsla(0, 0%, 0%, .45); /* FF3.5 - 3.6 */
+            box-shadow: 9px 9px 25px hsla(0, 0%, 0%, .45); /* Opera 10.5, IE9, FF4+, Chrome 10+ */
+  border-radius : 15px;
+  color : #fff;
+  font-family : "Andale Mono", monospace;
+  padding : 30px;
+  text-align : left;
+}
+
+.code.result {
+  font-family : serif;
+}

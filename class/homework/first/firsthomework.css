@@ -1,0 +1,14 @@
+body{ background-color: gray;} 
+h1 {font-family: Helvetica, Arial, sans-serif;}
+li { font-family: Helvetica;
+	display: inline;
+	padding: 50px;
+	border-color: black;} 
+a {border:10px solid gray;}
+
+a:link { text-decoration: none;
+		color: black}
+a:visited { color: black; }
+a:hover {color: white;
+		 background-color: black;
+		 border: 10px solid black;}

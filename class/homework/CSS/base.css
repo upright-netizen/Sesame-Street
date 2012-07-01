@@ -1,0 +1,85 @@
+body {
+	font-family: Arial, "MS Trebuchet", sans-serif;
+	background-color: #50483c;
+	text-align: center;
+	margin: 0;
+}
+
+/* top-nav stuff */
+.home-tag {
+	background-color: pink;
+	border-radius: 40px;
+	height: 40px;
+	left: 20px;
+	opacity: 0.8;
+	padding: 20px;
+	position: absolute;
+	top: 20px;
+	width: 40px;
+}
+.home-tag:hover {
+	opacity: 1;
+}
+.home-tag h1 {
+	color: #50483c;
+	font-family: Georgia, serif;
+	font-weight: normal;
+	text-decoration: none;
+	line-height: 0;
+}
+.top-nav ul {
+	font-family: Georgia, Serif;
+	list-style-type: none;
+	padding: 0;
+	color: white;
+}
+.top-nav li {
+	display: inline;
+}
+.top-nav .bullet {
+	padding: 0px 10px 0px 10px;
+}
+.top-nav a {
+	color: white;
+	text-decoration: none;
+}
+.top-nav a:hover {
+	color:pink;
+}
+
+/* content */
+.content {
+	float: left;
+	background-color: #FFF;
+	width: 100%;
+	padding-bottom: 120px;
+	color: #50483c;
+}
+.content h1, h2, h3 {
+	font-family:  Georgia, Serif;	
+	font-weight: normal;
+}
+.content h1 {
+	margin-bottom: 10px;
+}
+.content h2 {
+	font-size: 18px;
+}
+.content h3 {
+	font-size: 30px;
+	line-height: 2px;
+	margin: 0px 0px 30px;
+}
+
+/* content - categories */
+.section-drink-image {
+	margin-top: 30px;
+}
+
+/* footer stuff*/
+footer {
+	float: left;
+	width: 100%;
+	color: white;
+	font-size: 12px;
+}

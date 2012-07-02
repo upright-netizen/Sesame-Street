@@ -1,0 +1,32 @@
+/*!
+All paragraphs
+ */
+
+p {
+  color: rgb(100,155,255);
+  font-family: Arial, "MS Trebuchet", sans-serif;
+}
+
+/*!
+All links in an unordered list
+ */
+ul a {
+color: rgb(155,0,0)
+}
+
+/*!
+All hover links in an unordered list
+ */
+ul a:hover {
+  color: rgb(90,125,155);
+}
+
+div.float {
+  float: left;
+  padding-left: 20px;
+  }
+  
+div.float p {
+   text-align: center;
+   }
+

@@ -9,13 +9,6 @@ text-align:center;
 font-size : 50px;
 }
 
-h1.links{
-font-family: serif;
-color: #FFFFFF;
-text-align:center;
-font-size: 20px;
-}
-
 h3{
 color: #AAAFFF;
 text-align:left;
@@ -29,15 +22,25 @@ p{
 font-family:"Times New Roman", serif;
 }
 
-div.titlebox{
-height: 100px;
-width: 600px;
-margin: 120px 0px 0px 540px;
-background-color: #000;
+.box {
+	background-color: #000;
+	background-color: rgba(0,0,0, .7);
 }
 
-div.datebox{
-height: 150px;		
-width: 200px;
-margin: -10px 10px 10px 540px;
+.darker-box {
+	background-color: #FFF;
+	background-color: rgba(100,100,100, .9);
+
+}
+
+.titlebox {
+	height: 100px;
+	width: 600px;
+	margin: 120px 0px 0px 540px;
+}
+
+.linkbox{
+	height: 150px;		
+	width: 200px;
+	margin: 10px 10px 10px 540px;
 }

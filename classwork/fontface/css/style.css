@@ -1,7 +1,44 @@
-/*font-family: 'Patua One', cursive;*/
+body{
+background-color:#EEEEEE;
+}
 
-.sweettitle{
-	font-family: 'Patua One', cursive;
-	font-size: 140px;
-	text-align: center;
+h1{
+font-family: "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+color: #FFFFFF;
+text-align:center;
+font-size : 50px;
+}
+
+h1.links{
+font-family: serif;
+color: #FFFFFF;
+text-align:center;
+font-size: 20px;
+}
+
+h3{
+color: #AAAFFF;
+text-align:left;
+}
+
+li{
+display:inline;
+}
+
+p{
+font-family:"Times New Roman", serif;
+}
+
+div.titlebox{
+height: 100px;
+width: 600px;
+margin: 120px 0px 0px 540px;
+background-color: #000;
+background-color: rgba(0,0,0, .7);
+}
+
+div.datebox{
+height: 150px;		
+width: 200px;
+margin: -10px 10px 10px 540px;
 }

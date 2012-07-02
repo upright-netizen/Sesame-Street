@@ -1,0 +1,31 @@
+<!doctype html>
+    <html>
+      <head>
+        <title>Images I find on the internet</title>
+      </head>
+
+<style type="text/css">
+      body {
+        font-family: Arial, Verdana, sans-serif;
+        background-color: #efefef}
+    h1. h2. h3 {
+        font-family: Arial, Verdana, sans-serif;
+        background-color: #ebebeb}
+</style>
+
+      <body>
+        <h1>Images I find on the internet</h1>
+
+        <ul>
+          <li><img src="cat_balloon.jpg" alt="Oh noes"></img></li>
+        
+          <li><img src="pandadj.png" alt="Panda DJ"></img></li>      
+        
+          <li><img src="cata_lisa.jpg" alt="Cata Lisa"></img></li>
+        </ul>
+
+          <footer>Copyright <a href="http://ScottyFiveAlive.com">Scott Albrecht</a> &copy; 2012</footer>
+
+      </body>
+
+    </html>

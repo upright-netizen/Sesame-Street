@@ -1,0 +1,30 @@
+<!doctype html>
+    <html>
+      <head>
+        <title>Animated Gifs I find on the internet</title>
+      </head>
+
+<style type="text/css">
+      body {
+        font-family: Arial, Verdana, sans-serif;
+        background-color: #efefef}
+    h1. h2. h3 {
+        font-family: Arial, Verdana, sans-serif;
+        background-color: #000000}
+</style>
+
+      <body>
+        <h1>Animated Gifs I find on the internet</h1>
+
+        <img src="walrus_jam.gif" alt="Bill Clinton"></img>
+
+        <img src="cat_scratch.gif" alt="too fat"></img>
+
+        <img src="dog_paddle.gif" alt="keep believin'"></img>
+               
+
+          <footer>Copyright <a href="http://ScottyFiveAlive.com">Scott Albrecht</a> &copy; 2012</footer>
+
+      </body>
+
+    </html>

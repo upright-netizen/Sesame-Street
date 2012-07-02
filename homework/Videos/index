@@ -1,0 +1,27 @@
+<!doctype html>
+    <html>
+      <head>
+        <title>Videos I find on the internet</title>
+      </head>
+
+<style type="text/css">
+      body {
+        font-family: Arial, Verdana, sans-serif;
+        background-color: #efefef}
+    h1. h2. h3 {
+        font-family: Arial, Verdana, sans-serif;
+        background-color: #ebebeb}
+</style>
+
+      <body>
+        <h1>Videos I find on the internet</h1>
+
+        <iframe width="420" height="315" src="http://www.youtube.com/embed/CMNry4PE93Y" frameborder="0" allowfullscreen></iframe>
+        <p>I like turtles kid</p>
+               
+
+          <footer>Copyright <a href="http://ScottyFiveAlive.com">Scott Albrecht</a> &copy; 2012</footer>
+
+      </body>
+
+    </html>

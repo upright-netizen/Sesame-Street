@@ -5,7 +5,7 @@ var express = require('express')
 app.configure(function () {
   app.set('view options', { layout: false});
   app.use(app.router);
-  app.use(express.static(__dirname + '/../homework'));
+  app.use(express.static(__dirname + '/../class'));
   console.log(__dirname + '/../homework');
 });
 

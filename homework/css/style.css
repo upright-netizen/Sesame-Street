@@ -1,0 +1,19 @@
+.MyName {
+	font-family: 'Arvo', serif;
+	font-size: 100px;
+	text-align: center;
+}
+p {
+	text-align: center;
+}
+.theDoors {
+
+
+}
+
+.theDoors:hover{
+	opacity: 0.5;
+	-moz-opacity: 0.5;
+	filter:alpha(opacity=5);
+
+}

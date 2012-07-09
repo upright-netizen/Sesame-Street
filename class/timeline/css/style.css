@@ -1,10 +1,33 @@
-/*!
-All paragraphs
- */
+/*!     Header     */
+
+.logo {
+    float:left;
+}
+
+
+.navmenu {
+     margin-left: 20px;
+     float:left;
+     margin-top: 40px;
+
+    }
+.clear {
+  clear:both;
+}
+
+/*! FONTS 
+font-family: 'Doppio One', sans-serif;
+*/
+
+
+
+/*!    All paragraphs      */
+
+
 
 p {
   color: rgb(100,155,255);
-  font-family: Arial, "MS Trebuchet", sans-serif;
+  font-family: 'Doppio One', sans-serif;
 }
 
 /*!
@@ -23,10 +46,11 @@ ul a:hover {
 
 div.float {
   float: left;
-  padding-left: 20px;
+  padding-left: 30px;
   }
   
 div.float p {
    text-align: center;
+   font-family: 'Doppio One', sans-serif;
    }
 

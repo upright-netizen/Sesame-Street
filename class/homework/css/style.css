@@ -1,0 +1,28 @@
+.white-box {
+  border: 1px solid black;
+  width: 140px;
+  height: 100px;
+  padding: 12px;
+}
+
+.green-box {
+  border: 1px solid black;
+  width: 135px;
+  height: 40px;
+  background: green;
+}
+
+.yellow-box {
+  border: 1px solid black;
+  width: 20px;
+  height: 20px;
+  background: yellow;
+}
+
+.yellow-box.one {
+  margin:43px 0px 0px -7px;
+}
+
+.yellow-box.two {
+  margin:-22px 0px 0px 125px;
+}

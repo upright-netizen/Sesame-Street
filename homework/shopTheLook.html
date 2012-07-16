@@ -6,9 +6,10 @@
   <link rel="stylesheet" href="css/fonts.css">
   <link rel="stylesheet" href="css/slideshow.css">
   <link rel="stylesheet" href="css/style.css">
+  <link href='http://fonts.googleapis.com/css?family=Squada+One' rel='stylesheet' type='text/css'>
 </head>
 <body>
-	<h1>
+	<h1 class="pageTitle">
 	Shop the Look
 	</h1>
 	<h2>
@@ -23,32 +24,27 @@
 	</ul>
 
 	
-	<div class="scripts">
-    	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-    	<script>window.jQuery || document.write('<script src="/javascripts/libs/jquery-1.7.2.js"><\/script>')</script>
-    	<script>
-			$.getJSON('json/active.json', function(data) {
-			  var items = [];
 
-			  $.each(data.sales, function(key, val) {
-			  	//document.write('<li id="' + key + '">' + val + '</li>');
-			    items.push('<li id="' + key + '">' + val.name + '</li>');
-			    //console.log("key = " + key + " val = " + val.name);
-			  });
-			  $('<ul/>', {
-			    'class': 'my-new-list',
-			    html: items.join('')
-			  }).appendTo('body');
-
-			});
-
-
-    	</script>
-	</div>
-	
-	<!-- ex. dress -->
-	<section>
-		<img src="http://cdn1.gilt.com/images/share/uploads/0000/0001/5362/153626486/300x400.jpg"/>
+	<div style="width:100%;">
+		<!-- ex. dress -->
+		<section class="productColumn">
+			<img src="http://cdn1.gilt.com/images/share/uploads/0000/0001/5362/153626486/300x400.jpg" style=""/>
+			
+			<form>
+				<input type="checkbox" name=""/> Select
+			</form>
+			
+			<hgroup>
+				<h1>brand name</h1>
+				<h2>product name</h2>
+				<h3>$200</h3>
+				<h4>$500</h4>
+			</hgroup>
+		</section>
+		
+		<!-- ex. shoes -->
+		<section class="productColumn">
+		<img src="http://cdn2.gilt.com/images/share/uploads/0000/0001/4704/147046109/300x400.jpg"/>
 		
 		<form>
 			<input type="checkbox" name=""/> Select
@@ -60,43 +56,52 @@
 			<h3>$200</h3>
 			<h4>$500</h4>
 		</hgroup>
-	</section>
-	
-	<!-- ex. shoes -->
-	<section>
-	<img src="http://cdn2.gilt.com/images/share/uploads/0000/0001/4704/147046109/300x400.jpg"/>
-	
-	<form>
-		<input type="checkbox" name=""/> Select
-	</form>
-	
-	<hgroup>
-		<h1>brand name</h1>
-		<h2>product name</h2>
-		<h3>$200</h3>
-		<h4>$500</h4>
-	</hgroup>
-	</section>
-	
-	<!-- ex. accessory -->	
-	<section>
-	<img src="http://cdn1.gilt.com/images/share/uploads/0000/0001/4007/140075822/300x400.jpg"/>
-	
-	<form>
-		<input type="checkbox" name=""/> Select
-	</form>
-	
-	<hgroup>
-		<h1>brand name</h1>
-		<h2>product name</h2>
-		<h3>$200</h3>
-		<h4>$500</h4>
-	</hgroup>
-	</section>
-	
-	<div>Total $XXXX</div>
-	<form>
-		<input type="submit" class="add-to-cart primary-action button tint" value="Add to Cart">
-	</form>
+		</section>
+		
+		<!-- ex. accessory -->	
+		<section class="productColumn">
+		<img src="http://cdn1.gilt.com/images/share/uploads/0000/0001/4007/140075822/300x400.jpg"/>
+		
+		<form>
+			<input type="checkbox" name=""/> Select
+		</form>
+		
+		<hgroup>
+			<h1>brand name</h1>
+			<h2>product name</h2>
+			<h3>$200</h3>
+			<h4>$500</h4>
+		</hgroup>
+		</section>
+	</div>
+	<p style="clear:both">
+		<div>Total $XXXX</div>
+		<form>
+			<input type="submit" class="add-to-cart primary-action button tint" value="Add to Cart">
+		</form>
+
+		<div class="scripts">
+	    	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	    	<script>window.jQuery || document.write('<script src="/javascripts/libs/jquery-1.7.2.js"><\/script>')</script>
+	    	<script>
+				$.getJSON('json/active.json', function(data) {
+				  var items = [];
+
+				  $.each(data.sales, function(key, val) {
+				  	//document.write('<li id="' + key + '">' + val + '</li>');
+				    items.push('<li id="' + key + '">' + val.sale_url + '</li>');
+				    //console.log("key = " + key + " val = " + val.name);
+				  });
+				  $('<ul/>', {
+				    'class': 'my-new-list',
+				    html: items.join('')
+				  }).appendTo('body');
+
+				});
+
+
+	    	</script>
+		</div>
+	</p>
 </body>
 </html>

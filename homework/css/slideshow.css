@@ -35,6 +35,17 @@ a:hover {
   width : 1200px;
 }
 
+.pageTitle {
+  font-family: 'Squada One', cursive;
+  font-size: 75px;
+  text-align: center;
+}
+
+.productColumn {
+  float:left; 
+  padding:0 50px
+}
+
 .slide .title {
   font-family : 'LeagueGothic';
   font-size : 175px;

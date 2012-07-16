@@ -1,0 +1,84 @@
+<html>
+<head>
+  <meta charset="utf-8">
+
+  <title>slide show</title>
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/slideshow.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style2.css">
+  <link href='http://fonts.googleapis.com/css?family=Squada+One' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<section id="presentation" class="presentation">
+		<article class="slide">
+			<div class="box-example">
+		        <div class="box-model-box-small red float-left"></div>
+		        <div class="box-model-box-small red float-left"></div>
+		        <div class="box-model-box-small red float-left"></div>
+		        <div class="box-model-box-small red float-left"></div>
+		    </div>
+    	</article>
+    	<article class="slide">
+			<div class="box-example">
+		        <div class="box-model-box red float-left">
+		          
+		        </div>
+		        <div class="box-model-box blue float-right">
+		          
+		        </div>
+		    </div>
+    	</article>
+    	<article class="slide">
+			<div class="box-example-small">
+		        <div class="box-model-box-small red float-left"></div>
+		        <div class="box-model-box-small red float-left"></div>
+		        <div class="box-model-box-small red float-left"></div>
+		        <div class="box-model-box-small red float-left"></div>
+		    </div>
+    	</article>
+    	<article class="slide">
+    		<div class="box-example-large">
+				<div class="box-example-small float-left">
+			        <div class="box-model-box-small red float-left"></div>
+			        <div class="box-model-box-small red float-left"></div>
+			        <div class="box-model-box-small red float-left"></div>
+			        <div class="box-model-box-small red float-left"></div>
+			    </div>
+			    <div class="clear"/>
+			    <div class="box-example-small float-right">
+			        <div class="box-model-box-small blue float-right"></div>
+			        <div class="box-model-box-small blue float-right"></div>
+			        <div class="box-model-box-small blue float-right"></div>
+			        <div class="box-model-box-small blue float-right"></div>
+			    </div>
+			</div>
+    	</article>
+
+    	<article class="slide">
+    		<div class="box-example">
+			        <div class="box-model-rect green border"></div>
+			        <div class="box-model-rect white float-left relative border"></div>
+			        <div class="box-model-rect-small green relative border"></div>
+			</div>
+    	</article>
+    </section>
+      <div class="scripts">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="/javascripts/libs/jquery-1.7.2.js"><\/script>')</script>
+
+    <script src="../js/fathom.min.js"></script>
+    <script>
+    (function($, undefined){
+      $(function onReady () {
+        $('#presentation').fathom({
+          displayMode : 'multi',
+          margin : 5000,
+          slideTagName : 'article'
+        })
+      });
+    }(this.jQuery));
+    </script>
+  </div>
+</body>
+</html>

@@ -1,0 +1,118 @@
+.container {
+	border : 0px;
+	height : 264px;
+	width : 264px;
+}
+.containerB {
+	border : 0px;
+	height : 264px;
+	width : 264px;
+	margin-left: 364px;
+}
+.clear {
+    clear: both;
+}
+.box {
+	background-color: red;
+	border : 1px solid;
+	height : 100px;
+	width : 100px;
+}
+.boxB {
+	background-color: blue;
+	float: left;
+	border : 1px solid;
+	height : 100px;
+	width : 100px;
+}
+.float {
+	float : left;
+	margin : 15px;
+}
+.containerFive {
+	border : 0px;
+	height : 300px;
+	width : 400px;
+}
+.boxChartreuse {
+	background-color: lightgreen;
+	border : 1px solid;
+	height : 250px;
+	width : 350px;
+}
+.containerBoxes {
+	border: 1px solid;
+	height: 250px;
+	width: 350px;
+	margin: -225px 0 0 25px;
+	background-color: white;
+	position: absolute;
+}
+.boxGreen {
+	background-color: green;
+	border: 1px solid;
+	height: 100px;
+	width: 300px;
+	margin: 10px auto 0;
+}
+.boxYellow {
+	background-color: yellow;
+	border: 1px solid;
+	height: 25px;
+	width: 25px;
+	position: absolute;
+	left: 10px;
+	bottom: 10px;
+}
+.boxYellowB {
+	background-color: yellow;
+	border: 1px solid;
+	height: 25px;
+	width: 25px;
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+}
+.containerSix {
+	border : 0px;
+	height : 300px;
+	width : 600px;
+}
+.containerBoxes6 {
+	border: 1px solid;
+	height: 100px;
+	width: 150px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	background-color: white;
+	float: left;
+}
+	.containerBoxes6.alt {
+		margin-left: 162px;
+	}
+.boxGreen6 {
+	background-color: green;
+	border: 1px solid;
+	height: 50px;
+	width: 120px;
+	margin: 10px auto 0;
+}
+.boxYellow6 {
+	background-color: yellow;
+	border: 1px solid;
+	height: 10px;
+	width: 10px;
+	margin: 20px 10px 10px;
+	float: left;
+}
+.boxYellow6B {
+	background-color: yellow;
+	border: 1px solid;
+	height: 10px;
+	width: 10px;
+	margin: 20px 10px 10px;
+	float: right;
+}
+
+	
+	

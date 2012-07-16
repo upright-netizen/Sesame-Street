@@ -47,7 +47,7 @@ body {
 	color:pink;
 }
 
-/* content */
+/* content - index */
 .content {
 	float: left;
 	background-color: #FFF;
@@ -72,10 +72,37 @@ body {
 }
 
 /* content - categories */
-.section-drink-image {
-	margin-top: 30px;
+.column1 {
+	float: left;
+	width: 250px;
+	margin-right: 30px;
+	overflow: hidden;
 }
-
+.section-drink-image {
+	float: left;
+	margin-top: 50px;
+}
+.column2 {
+	float: left;
+	width: 325px;
+	margin-right: 30px;
+	overflow: hidden;
+	text-align: left;
+}
+.column3 {
+	float: left;
+	width: 325px;
+	margin-right: 30px;
+	overflow: hidden;
+	text-align: left;
+}
+.column4 {
+	float: left;
+	width: 325px;
+	margin-right: 30px;
+	overflow: hidden;
+	text-align: left;
+}
 /* footer stuff*/
 footer {
 	float: left;

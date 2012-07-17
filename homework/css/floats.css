@@ -1,0 +1,25 @@
+.red-box {
+	background: tomato;
+	float: left;
+	margin: 10px;
+	color: white;
+	text-align: center;
+	padding: 40px;
+	font-family: monospace;
+	font-size: 16px;
+}
+
+.blue-box {
+	background: blue;
+	float: left;
+	margin: 10px;
+	color: white;
+	text-align: center;
+	padding: 40px;
+	font-family: monospace;
+	font-size: 16px;
+}
+
+ul li {
+	list-style: none;
+}

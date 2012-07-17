@@ -1,0 +1,518 @@
+	/* 
+		Eric Meyer's CSS Reset
+		http://meyerweb.com/eric/tools/css/reset/ 
+		v2.0 | 20110126
+   		License: none (public domain)
+	*/
+	
+	html, body, div, span, applet, object, iframe,
+	h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+	a, abbr, acronym, address, big, cite, code,
+	del, dfn, em, img, ins, kbd, q, s, samp,
+	small, strike, strong, sub, sup, tt, var,
+	b, u, i, center,
+	dl, dt, dd, ol, ul, li,
+	fieldset, form, label, legend,
+	table, caption, tbody, tfoot, thead, tr, th, td,
+	article, aside, canvas, details, embed, 
+	figure, figcaption, footer, header, hgroup, 
+	menu, nav, output, ruby, section, summary,
+	time, mark, audio, video {
+		margin: 0;
+		padding: 0;
+		border: 0;
+		font: inherit;
+		vertical-align: baseline;
+	}
+
+	html {
+		font-size: 62.5%; 
+	}
+	/* HTML5 display-role reset for older browsers */
+	article, aside, details, figcaption, figure, 
+	footer, header, hgroup, menu, nav, section {
+		display: block;
+	}
+	body {
+		line-height: 1;
+	}
+	ol, ul {
+		list-style: none;
+	}
+	blockquote, q {
+		quotes: none;
+	}
+	blockquote:before, blockquote:after,
+	q:before, q:after {
+		content: '';
+		content: none;
+	}
+	table {
+		border-collapse: collapse;
+		border-spacing: 0;
+	}
+	
+	
+	
+	body { background: #fff; font-family: 'Proxima Nova Regular'; font-size: 14px; line-height: 18px; color: #555; position: relative; -webkit-font-smoothing: antialiased; }
+	
+
+	 
+
+/*	--------------------------------------------------
+	:: Links
+	-------------------------------------------------- */
+	a { color: #2a85e8; text-decoration: none; line-height: inherit; }
+	a:hover { color: #11639d; }
+	a:focus { color: #cc4714; }
+	a:hover, a:active { outline: none; }
+	p a, p a:visited { line-height: inherit; }
+	
+
+/*	--------------------------------------------------
+	:: Lists
+	-------------------------------------------------- */
+	ul, ol { margin-bottom: 18px; }
+	ul { list-style: none outside; }
+	ol { list-style: decimal; }
+	ol, ul.square, ul.circle, ul.disc { margin-left: 30px; }
+	ul.square { list-style: square outside; }
+	ul.circle { list-style: circle outside; }
+	ul.disc { list-style: disc outside; }
+	ul ul, ol ol { margin: 4px 0 5px 30px; }
+	li { margin-bottom: 12px; }
+	ul.large li { line-height: 21px; }
+	
+
+
+
+/* -------------------------------------------------- 
+	:: Misc
+---------------------------------------------------*/
+	.left       { float: left; }
+	.right      { float: right; }
+	.hide     	{ display: none; }
+	.highlight 	{ background: #ff0; }
+	
+
+
+/*	--------------------------------------------------
+    :: Typography
+	-------------------------------------------------- */
+	h1, h2, h3, h4, h5, h6 { color: #181818; line-height: 1; text-transform: uppercase; letter-spacing: 4px; }
+	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
+	h1 { font-size: 46px; font-size: 4.6rem; margin-bottom: 12px;}
+	h2 { font-size: 35px; font-size: 3.5rem; margin-bottom: 9px; }
+	h3 { font-size: 28px; font-size: 2.8rem; margin-bottom: 9px; }
+	h4 { font-size: 21px; font-size: 2.1rem; margin-bottom: 3px; }
+	h5 { font-size: 18px; font-size: 1.8rem; margin-bottom: 3px;  }
+	h6 { font-size: 15px; font-size: 1.5rem; }
+
+	.subheader { color: #777; font-weight: 300; margin-bottom: 24px; }
+
+	p { line-height: 22px; margin: 0 0 18px; }
+	p img { margin: 0; }
+	p.lead { font-size: 18px; font-size: 1.8rem; line-height: 24px;  }
+	
+		/* Mobile */
+		
+		@media handheld, only screen and (max-width: 767px) {
+			body, p {  font-size: 15px; font-size: 1.5rem; line-height: 1.4; }
+		}
+	
+	em, i { font-style: italic; line-height: inherit; }
+	strong, b { font-weight: bold; line-height: inherit; }
+	small { font-size: 60%; line-height: inherit; }
+	
+	h1 small, h2 small, h3 small, h4 small, h5 small { color: #777; }
+	
+
+/*	--------------------------------------------------
+    :: Full Page Background Image
+	-------------------------------------------------- */
+
+
+	
+
+	.bg {
+
+		background: url(../images/feature-02.jpg) no-repeat center center fixed; 
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		min-width: 1280px;
+		min-height: 400px;
+		position: static;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: auto;
+
+	}
+
+	/*	--------------------------------------------------
+    :: Content Styles
+	-------------------------------------------------- */
+
+	.content-01 { 
+		background: #f1f1f1;
+	}
+	.content-03, .content-02 {
+		padding: 150px;
+	}
+	.content-04 {
+		background: black;
+		text-align: center;
+		padding: 150px;
+	}
+	.feature { 
+		padding: 60px;
+	}
+	.feature-copy {
+		margin-top: 40px;
+	}
+
+	.project h1 {
+		color: white;	
+	}
+
+	/* -------------------------------------------------- 
+	:: Header
+	---------------------------------------------------*/	
+	
+	header nav li {
+		color: black;
+		float: left;
+		margin-right: 30px;
+		font-family: georgia, times, 'times new roman', serif;
+		font-style: italic;
+		font-size: 16px;
+	}
+
+	header nav li a {
+		color: black;
+		text-transform: lowercase;
+	}
+
+	
+	header {
+		padding: 30px 0px 30px 0px;
+		min-height: 70px;
+	}
+
+	header nav {
+		margin-top: 40px;
+	}
+
+	.logo {
+		width:100px;
+		height:100px;
+		display:block;
+		border-radius:50px;
+		-moz-border-radius:50px;
+		-webkit-border-radius:50px;
+		-khtml-border-radius:50px;
+		font-size:20px;
+		color:#fff;
+		line-height:100px;
+		text-align:center;
+		background: red} 
+	}
+
+
+
+	
+
+/* --------------------------------------------------
+	:: Grid
+	-------------------------------------------------- */
+
+	
+	.container { padding: 0px; }
+	.row { width: 100%; max-width: 980px; min-width: 727px; margin: 0 auto; }
+	/* To fix the grid into a certain size, set max-width to width */
+	.row .row { min-width: 0px; }
+	
+	.column, .columns { margin-left: 4.4%; float: left; min-height: 1px; position: relative; }
+	.column:first-child, .columns:first-child { margin-left: 0px; }
+	
+	.row .one.columns { width: 4.3%; }
+	.row .two.columns { width: 13%; }
+	.row .three.columns { width: 21.68%; }
+	.row .four.columns { width: 30.4%; }
+	.row .five.columns { width: 39.1%; }
+	.row .six.columns { width: 47.8%; }
+	.row .seven.columns { width: 56.5%; }
+	.row .eight.columns { width: 65.2%; }
+	.row .nine.columns { width: 73.9%; }
+	.row .ten.columns { width: 82.6%; }
+	.row .eleven.columns { width: 91.3%; }
+	.row .twelve.columns { width: 100%; }
+	.row .centered { float: none; margin: 0 auto; }
+	img, object, embed { max-width: 100%; height: auto; }
+	img { -ms-interpolation-mode: bicubic; }
+	 
+	 /* Nicolas Gallagher's micro clearfix */
+	 .row:before, .row:after, .clearfix:before, .clearfix:after { content:""; display:table; }
+	 .row:after, .clearfix:after { clear: both; }
+	 .row, .clearfix { zoom: 1; }
+
+
+
+
+
+
+
+
+
+	/* --------------------------------------------------
+	:: Orbit
+	-------------------------------------------------- */
+ 
+ 
+ 
+/* CONTAINER
+   ================================================== */
+
+div.orbit-wrapper {
+    width: 1px;
+    height: 1px;
+    position: relative; }
+
+div.orbit {
+    width: 1px;
+    height: 1px;
+    position: relative;
+    overflow: hidden }
+    
+div.orbit.with-bullets {
+    margin-bottom: 40px; }
+
+div.orbit .orbit-slide {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0; }
+
+div.orbit a.orbit-slide {
+    border: none;
+    line-height: 0; 
+    display: none; }
+
+div.orbit div.orbit-slide {
+    width: 100%;
+    height: 100%; }
+
+/* Note: If your slider only uses content or anchors, you're going to want to put the width and height declarations on the ".orbit>div" and "div.orbit>a" tags in addition to just the .orbit-wrapper */
+
+
+/* TIMER
+   ================================================== 
+
+div.orbit-wrapper div.timer {
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    opacity: .6;
+    cursor: pointer;
+    z-index: 31; }
+
+div.orbit-wrapper span.rotator {
+    display: block;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 0;
+    left: -20px;
+    background: url(../images/rotator-black.png) no-repeat;
+    z-index: 3; }
+
+div.orbit-wrapper span.mask {
+    display: block;
+    width: 20px;
+    height: 40px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
+    overflow: hidden; }
+
+div.orbit-wrapper span.rotator.move {
+    left: 0 }
+
+div.orbit-wrapper span.mask.move {
+    width: 40px;
+    left: 0;
+    background: url(../images/timer-black.png) repeat 0 0; }
+
+div.orbit-wrapper span.pause {
+    display: block;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url(../images/pause-black.png) no-repeat;
+    z-index: 4;
+    opacity: 0; }
+
+div.orbit-wrapper span.pause.active {
+    background: url(../images/pause-black.png) no-repeat 0 -40px }
+
+div.orbit-wrapper div.timer:hover span.pause,
+div.orbit-wrapper span.pause.active {
+    opacity: 1 }
+
+
+  */
+
+
+/* CAPTIONS
+   ================================================== */
+
+.orbit-caption {
+    display: none;
+    font-family: "HelveticaNeue", "Helvetica-Neue", Helvetica, Arial, sans-serif; }
+
+.orbit-wrapper .orbit-caption {
+    background: #000;
+    background: rgba(0,0,0,.6);
+    z-index: 30;
+    color: #fff;
+    text-align: center;
+    padding: 7px 0;
+    font-size: 13px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 100%; }
+
+
+/* DIRECTIONAL NAV
+   ================================================== */
+
+div.orbit-wrapper div.slider-nav {
+    display: block }
+
+div.orbit-wrapper div.slider-nav span {
+    width: 78px;
+    height: 100px;
+    text-indent: -9999px;
+    position: absolute;
+    z-index: 30;
+    top: 50%;
+    margin-top: -50px;
+    cursor: pointer; }
+
+div.orbit-wrapper div.slider-nav span.right {
+    background: url(../images/right-arrow.png);
+    right: 0; }
+
+div.orbit-wrapper div.slider-nav span.left {
+    background: url(../images/left-arrow.png);
+    left: 0; }
+
+/* BULLET NAV
+   ================================================== */
+
+ul.orbit-bullets {
+    position: absolute;
+    z-index: 30;
+    list-style: none;
+    bottom: -40px;
+    left: 50%;
+	margin-left: -50px;
+    padding: 0; }
+
+ul.orbit-bullets li {
+    float: left;
+    margin-left: 5px;
+    cursor: pointer;
+    color: #999;
+    text-indent: -9999px;
+    background: url(../images/bullets.jpg) no-repeat 4px 0;
+    width: 13px;
+    height: 12px;
+    overflow: hidden; }
+
+ul.orbit-bullets li.active {
+    color: #222;
+    background-position: -8px 0; }
+    
+ul.orbit-bullets li.has-thumb {
+    background: none;
+    width: 100px;
+    height: 75px; }
+
+ul.orbit-bullets li.active.has-thumb {
+    background-position: 0 0;
+    border-top: 2px solid #000; }
+    
+/* FLUID LAYOUT
+   ================================================== */
+div.orbit img.fluid-placeholder {
+    visibility: hidden;
+    position: static;
+    display: block;
+    width: 100%; }
+
+div.orbit, div.orbit-wrapper { width: 100% !important; }
+
+ul.orbit-bullets {
+    position: absolute;
+    z-index: 30;
+    list-style: none;
+    bottom: -50px;
+    left: 50%;
+	margin-left: -50px;
+    padding: 0; }
+
+ul.orbit-bullets li {
+    float: left;
+    margin-left: 5px;
+    cursor: pointer;
+    color: #999;
+    text-indent: -9999px;
+    background: url(../images/bullets.jpg) no-repeat 4px 0;
+    width: 13px;
+    height: 12px;
+    overflow: hidden; }
+
+ul.orbit-bullets li.has-thumb {
+    background: none;
+    width: 100px;
+    height: 75px; }
+
+ul.orbit-bullets li.active {
+    color: #222;
+    background-position: -8px 0; }
+
+ul.orbit-bullets li.active.has-thumb {
+    background-position: 0 0;
+    border-top: 2px solid #000; }
+
+
+/* GRACEFUL LOADING
+   ================================================== */
+
+
+#featured img { background: url(../images/spinner.gif) center center white; height: auto; }
+
+
+
+	 
+	
+	
+
+
+	
+
+
+
+
+
+	

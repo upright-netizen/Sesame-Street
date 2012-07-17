@@ -1,0 +1,9 @@
+.red-box {
+	background: tomato;
+	width: 300px;
+	height: 300px;
+}
+
+ul li {
+	list-style: none;
+}

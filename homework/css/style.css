@@ -6,14 +6,23 @@
 p {
 	text-align: center;
 }
+.center {
+	width: 815px;
+	margin: 10px auto;
+}
+
+.doorList {
+	padding: 0px;	
+}
+
+.door {
+	display: inline-block;
+}
+
 .theDoors {
-
-
+	margin: 0px 20px;
 }
 
 .theDoors:hover{
 	opacity: 0.5;
-	-moz-opacity: 0.5;
-	filter:alpha(opacity=5);
-
 }

@@ -1,5 +1,22 @@
+body {
+	background-color: RosyBrown;
+	/*background: url(/homework/flower-hill-tribe/images/Stripes.jpeg);*/
+}
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+.wrapper {
+	width: 1200px; /* 960px */
+	padding: 10px;
+	margin: 0 auto;
+	background-color: white;
+	border-radius: 15px;
+}
 .events .event {
-
+	font-family: "SevenSixteen", sans-serif;
 }
 
 

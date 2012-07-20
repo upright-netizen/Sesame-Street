@@ -1,0 +1,30 @@
+.header {}	
+
+.main-navigation {
+	font-family: "TallDarkAndHandsome", sans-serif;
+	font-size: 60px;
+	height: 55px;
+	width: 730px;
+	margin: auto;
+	padding: 0;
+	text-align: center;
+}
+.main-navigation-links {
+	color: RosyBrown; 
+	height: 45px;
+	width: 125px;
+	padding: 10px;
+	margin: 10px;
+	text-align: center;
+	text-decoration: none;
+}
+.nav-thumb-img {
+	width: 1200px; 
+}
+.list-style {
+	list-style-type: none;
+	display: inline;
+}
+.clear {
+	clear: both;
+}

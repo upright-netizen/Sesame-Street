@@ -1,0 +1,70 @@
+body {
+	background-color: OldLace;
+	/*background: url(/homework/flower-hill-tribe/images/Stripes.jpeg);*/
+}
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+.wrapper {
+	width: 1200px; /* 960px */
+	padding: 10px;
+	margin: 0 auto;
+	background-color: white;
+	border-radius: 15px;
+}
+.band-name{
+	font-family: "skinny", sans-serif;
+	font-size: 60px;
+	color: Purple;
+	margin: auto;
+	margin-bottom: 5px;
+	padding-bottom: 2px;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	text-align: right;
+	text-align: right;
+}
+.underline {
+	border: 2px solid;
+	width: 1165px;
+	float: right;
+	margin-right: 20px;
+	color: LightGrey;
+}
+.clear{
+	clear: both;
+}
+.band-thumb {
+	margin: 5px;
+	text-align: center;
+}
+.band-thumb-img{
+	border: 1px solid;
+	border-radius: 5px;
+	height: 600px;
+	width: 600px;
+	margin: 20px;
+	float: left;
+}
+.black-keys {
+	height: 550px;
+	width: 550px;
+	float: left;
+}
+.band-details {
+
+}
+.band-description {
+	height: auto;
+	width: 1104px;
+	font-family: helvetica;
+	font-size: 18px;
+	line-height: 1.2;
+	margin: 20px;
+	float: left;
+}
+

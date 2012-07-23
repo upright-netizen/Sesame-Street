@@ -1,0 +1,425 @@
+/* =============================================================================
+   HTML5 Boilerplate CSS: h5bp.com/css
+   ========================================================================== */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section { display: block; }
+audio, canvas, video { display: inline-block; *display: inline; *zoom: 1; }
+audio:not([controls]) { display: none; }
+[hidden] { display: none; }
+
+html { font-size: 100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+html, button, input, select, textarea { font-family: sans-serif; color: #222; }
+body { margin: 0; font-size: 1em; line-height: 1.4; }
+
+::selection { background: #88826a; color: #fff; text-shadow: none; }
+
+a { 
+  color: #00e; 
+}
+
+a:hover { 
+  color: #06e; 
+}
+
+a:focus { 
+  outline: 0; 
+}
+
+a:hover, a:active { 
+  outline: 0; 
+}
+
+img { border: 0; -ms-interpolation-mode: bicubic; vertical-align: middle; }
+
+figure { margin: 0; }
+
+.chromeframe { margin: 0.2em 0; background: #ccc; color: black; padding: 0.2em 0; }
+
+
+
+/* ===== Primary Styles ========================================================
+
+   ========================================================================== */
+
+body{
+  font-family: 'ProximaNovaRegular', sans-serif;
+}
+
+a{
+  text-decoration:none;
+}
+
+.container{
+  width:921px;
+  margin:0 auto;
+  position:relative;
+}
+
+header{
+  width:100%;
+  height:124px;
+  background:url(../img/headerbg.png) repeat-x top center;
+  position:fixed;
+  top:0; left:0;
+  z-index:9999;
+}
+
+  header #logo{
+    margin:0;
+    position:absolute;
+    top:0;
+    left:50%;
+    width:173px; height:120px;
+    margin-left:-88px;
+    display:block;
+    text-indent:-9999em;
+  }
+
+    header #logo a{
+      width:173px; height:120px;
+      display:block;
+      background:url(../img/logo.png) no-repeat top center;
+    }
+
+    nav{
+      padding:31px 0 0 0;
+    }
+
+      #main-menu{
+        width:100%;
+        height:43px;
+        padding:10px 0 0 0;
+      }
+
+        #main-menu li{
+          float:left; display:block;
+        }
+
+          #main-menu li a{
+            font-size:16px;
+            color:#6f6353;
+            font-family: 'ProximaNovaExtrabold', sans-serif;
+            text-transform:uppercase;
+            line-height:34px;
+            display:block;
+            padding:0 14px;
+            text-align:center;
+            letter-spacing:2px;
+          }
+
+			#main-menu li a:hover {
+              background:#e6e2dc;
+            }
+
+            #main-menu li.active a, #main-menu li.active a:hover {
+              background:#8ac9d0;
+              color:#fff;
+            }
+
+            #main-menu li.store1{
+              margin-left:43px;
+            }
+
+            #main-menu li.store2{
+              margin-left:90px;
+            }
+
+            #main-menu li.store3{
+              margin-left:295px;
+            }
+
+            #main-menu li.store4{
+              margin-left:98px;
+            }
+
+      #slogan{
+        width:390px; height:23px;
+        background:#fff;
+        text-align:center;
+        border:1px solid #c98702;
+        -webkit-border-radius:3px;
+        -moz-border-radius:3px;
+        border-radius:3px;
+        position:absolute;
+        top:107px; left:50%;
+        margin-left:-199px;
+      }
+
+        #slogan span{
+          font-size:10px;
+          color:#6f6353;
+          font-family: 'ProximaNovaBold', sans-serif;
+          letter-spacing:5px;
+          text-transform:uppercase;
+          padding:4px 0 0 0;
+        }
+
+          #slogan span.alignleft{
+            padding-left:15px;
+          }
+
+          #slogan span.alignright{
+            padding-right:10px;
+          }
+
+          #slogan span.star{
+            width:14px; height:14px;
+            background:url(../img/slogan-star.jpeg) no-repeat top center;
+            position:absolute;
+            left:50%; top:4px;
+            margin-left:-5px;
+          }
+
+#gilted{
+  padding:124px 0 0 0;
+  height:397px;
+  background:url(../img/featuredbg.jpg) repeat-x top center;
+}
+
+  .gilted-img{
+    float:left; 
+    display:block;
+    margin:95px 42px 0 15px;
+    width:355px;
+  }
+
+  .gilted-txt{
+    float:left; 
+    display:block;
+    margin:85px 0 0 0;
+    width:509px;
+  }
+
+    .gilted-txt h2{
+      margin:0; padding:0;
+      color:#272822;
+      font-size:60px;
+      font-weight:normal;
+      font-family: 'ProximaNovaBold', sans-serif;
+      line-height:54px;
+      letter-spacing:-1px;
+    }
+
+     .gilted-txt p{
+      margin:3px 0 0 0;
+      color:#272822;
+      font-size:28px;
+      font-family: 'ProximaNovaLight', sans-serif;
+      line-height:28px;
+      letter-spacing:-1px;
+      font-weight:normal;
+    }
+
+      .buttons{
+        padding:22px 0 0 5px;
+      }
+
+      .buttons a.btn{
+        margin-right:8px;
+      }
+
+
+    .btn{
+      display:block;
+      height:44px;
+      float:left;
+      padding:0 18px;
+      line-height:44px;
+      text-align:center;
+      color:#f6f3e8;
+      letter-spacing:2px;
+      text-transform:uppercase;
+      background:#ccc;
+      font-size:14px;
+      font-family: 'ProximaNovaBold', sans-serif;
+      -webkit-border-radius:4px;
+      -moz-border-radius:4px;
+      border-radius:4px;
+      border:1px solid #70910c;
+    }
+
+      .btn:hover{
+        color:#f6f3e8;
+      }
+
+      .graybtn{
+        background-color: #c98702;
+
+        border:1px solid #566b6b;
+      }
+
+        .graybtn:hover{
+          background-color: #6f7576;
+    
+        }
+
+        .graybtn:active{
+          background-color: #686d6e;
+          box-shadow: inset 0 2px 2px #27565b;
+        }      
+
+
+
+#store2{
+  background:#84807e url(../img/storebg.jpeg) repeat-x top center;
+  height:3114px;
+}
+
+  #store2 .container{
+    height:100%;
+  }
+
+  #store2 .borders{
+    margin:0; padding:45px 0 46px 0;
+    text-align:center;
+    font-size:14px;
+    color:#f6f3e8;
+    font-family: 'ProximaNovaBold', sans-serif;
+    letter-spacing:7px;
+    font-weight:normal;
+    text-transform:uppercase;
+    background:url(../img/store-borders.png) no-repeat center center;
+  }
+
+  #store2 ul{
+    margin:7px 0 0 -67px; 
+    padding:7px 0 0 0;
+    width:990px; 
+    overflow:auto;
+  }
+
+    #store2 ul li{
+      float:left; 
+      display:block;
+      list-style:none;
+      width:262px;
+      height:323px;
+      margin:0 0 0 66px;
+      text-align:center;
+      background:url(../img/store-borders.png) no-repeat center center;
+    }
+
+      #store2 ul li a{
+        display:block;
+      }
+
+      #store2 ul li img{
+        width:262px;
+        border:1px solid #1d1d1d;
+        border-radius:10px;
+        display:block;
+      }
+
+      #store2 ul li a:hover img{
+		    box-shadow: 0 0 5px rgba(255, 255, 255, 0.75);
+	  }
+
+      #store2 ul li strong{
+        font-size:14px;
+        color:#faf9f3;
+        font-family: 'ProximaNovaBold';
+        font-weight:normal;
+        letter-spacing:2px;
+        text-transform:uppercase;
+        padding:13px 0 0 0;
+        display:block;
+      }
+
+      #store2 ul li p{
+        color:#faf9f3;
+        font-size:13px;
+        font-family: 'ProximaNovaRegular';
+        line-height:18px;
+        margin:0 auto;
+        width:212px;
+      }
+   
+
+.alignleft{
+  float:left;
+}
+
+.alignright{
+  float:right;
+}
+
+
+
+
+/* Fonts */
+
+@font-face {
+  font-family: 'ProximaNovaLight';
+  src: url('http://www.font-face.com/fonts/ProximaNova-Light-webfont.eot');
+  src: local('â˜º'), url('http://www.font-face.com/fonts/ProximaNova-Light-webfont.woff') format('woff'), url('http://www.font-face.com/fonts/ProximaNova-Light-webfont.ttf') format('truetype'), url('http://www.font-face.com/fonts/ProximaNova-Light-webfont.svg#webfont1IYZQmli') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ProximaNovaRegular';
+  src: url('../fonts/ProximaNova-Reg-webfont.eot');
+  src: local('â˜º'), url('http://www.font-face.com/fonts/ProximaNova-Reg-webfont.woff') format('woff'), url('http://www.font-face.com/fonts/ProximaNova-Reg-webfont.ttf') format('truetype'), url('http://www.font-face.com/fonts/ProximaNova-Reg-webfont.svg#webfontahTfxwb5') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ProximaNovaBold';
+  src: url('../fonts/ProximaNova-Bold-webfont.eot');
+  src: local('â˜º'), url('http://www.font-face.com/fonts/ProximaNova-Bold-webfont.woff') format('woff'), url('http://www.font-face.com/fonts/ProximaNova-Bold-webfont.ttf') format('truetype'), url('http://www.font-face.com/fonts/ProximaNova-Bold-webfont.svg#webfontnr0MA2zn') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ProximaNovaExtrabold';
+  src: url('../fonts/ProximaNova-Xbold-webfont.eot');
+  src: local('â˜º'), url('http://www.font-face.com/fonts/ProximaNova-Xbold-webfont.woff') format('woff'), url('http://www.font-face.com/fonts/ProximaNova-Xbold-webfont.ttf') format('truetype'), url('http://www.font-face.com/fonts/ProximaNova-Xbold-webfont.svg#webfont2rpW2ohz') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+
+/* =============================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+	/* Style adjustments for viewports that meet the condition */
+}
+
+/* =============================================================================
+   Non-Semantic Helper Classes
+   ========================================================================== */
+
+.ir { display: block; border: 0; text-indent: -999em; overflow: hidden; background-color: transparent; background-repeat: no-repeat; text-align: left; direction: ltr; *line-height: 0; }
+.ir br { display: none; }
+.hidden { display: none !important; visibility: hidden; }
+.visuallyhidden { border: 0; clip: rect(0 0 0 0); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; width: 1px; }
+.visuallyhidden.focusable:active, .visuallyhidden.focusable:focus { clip: auto; height: auto; margin: 0; overflow: visible; position: static; width: auto; }
+.invisible { visibility: hidden; }
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { *zoom: 1; }
+
+/* =============================================================================
+   Print Styles
+   ========================================================================== */
+ 
+@media print {
+  * { background: transparent !important; color: black !important; box-shadow:none !important; text-shadow: none !important; filter:none !important; -ms-filter: none !important; } /* Black prints faster: h5bp.com/s */
+  a, a:visited { text-decoration: underline; }
+  a[href]:after { content: " (" attr(href) ")"; }
+  abbr[title]:after { content: " (" attr(title) ")"; }
+  .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after { content: ""; }  /* Don't show links for images, or javascript/internal links */
+  pre, blockquote { border: 1px solid #999; page-break-inside: avoid; }
+  thead { display: table-header-group; } /* h5bp.com/t */
+  tr, img { page-break-inside: avoid; }
+  img { max-width: 100% !important; }
+  @page { margin: 0.5cm; }
+  p, h2, h3 { orphans: 3; widows: 3; }
+  h2, h3 { page-break-after: avoid; }
+}

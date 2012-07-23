@@ -1,0 +1,21 @@
+.red{
+	background-color: #FF0000;
+	width: 100px;
+	height: 100px;
+	float: left;
+	margin: 20px;
+}
+
+.blue{
+	background-color: #00B2EE;
+	width: 100px;
+	height: 100px;
+	float: right;
+	margin: 20px;
+}
+
+.boxes{
+	margin: 250px auto;
+	width: 300px;
+
+}

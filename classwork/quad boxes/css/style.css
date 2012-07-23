@@ -1,0 +1,16 @@
+.red{
+	background-color: #FF0000;
+	width: 100px;
+	height: 100px;
+	float: left;
+	margin: 20px;
+}
+
+.boxes{
+	margin: 250px auto;
+	width: 300px;
+}
+
+.clear {
+	clear : left;
+}

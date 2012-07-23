@@ -1,5 +1,4 @@
 body{
-background-color:#EEEEEE;
 }
 
 h1{
@@ -7,6 +6,15 @@ font-family: "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Time
 color: #FFFFFF;
 text-align:center;
 font-size : 50px;
+padding: 16px;
+}
+
+h5{
+font-family: "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+color: #FFFFFF;
+text-align:center;
+font-size : 30px;
+padding: 5px;
 }
 
 h3{
@@ -14,33 +22,55 @@ color: #AAAFFF;
 text-align:left;
 }
 
-li{
-display:inline;
-}
-
 p{
 font-family:"Times New Roman", serif;
 }
 
-.box {
-	background-color: #000;
-	background-color: rgba(0,0,0, .7);
+.linkbox {
+	margin: 100px auto;
+	width: 600px;
+
 }
 
-.darker-box {
-	background-color: #FFF;
-	background-color: rgba(100,100,100, .9);
+.box {
+	background-color: #000;
+	background-color: rgba(0,0,0, .8);
+	margin: 10px auto;
+	width: 600px;
+}
 
+.inside {
+	height: 50px;
+	width: 600px;
+	margin: auto;
+	margin-top: 10px;
+}
+
+.clear {
+	clear : left;
+}
+
+.pic {
+	display : block;
+	margin: 0 auto;
+	padding-bottom : 20px;
+	width : 600px;
 }
 
 .titlebox {
 	height: 100px;
 	width: 600px;
-	margin: 120px 0px 0px 540px;
+	margin: auto;
+	margin-top: 150px;
 }
 
 .linkbox{
-	height: 150px;		
-	width: 200px;
-	margin: 10px 10px 10px 540px;
+	height: 60px;		
+	width: 600px;
+	margin-top: 20px;
+}
+
+.areas{
+	margin: auto;
+
 }

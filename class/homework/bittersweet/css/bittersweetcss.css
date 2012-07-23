@@ -2,7 +2,7 @@ body {
 	font-size: 80%;
 	font-family: Georgia, serif;
 	letter-spacing: 0.15em;
-	background-color: #F7E4EB;
+	background-color: #9DC0C4;
 }
 .logo {
 	margin: 10px auto 25px auto;
@@ -36,14 +36,15 @@ body {
 	text-decoration: none;
 }
 .top-nav a:hover {
-	color:pink;
+	color: rgb(179, 24, 135);
+	border-bottom : 1px dotted;
 }
 .page {
 	max-width: 940px;
 	min-width: 720px;
-	margin: 10px auto 10px auto;
+	margin: 50px auto 10px auto;
 	padding: 20px;
-	border: 4px double #000;
+	border: 2px solid #000;
 	background-color: #efefef;
 }
 header {
@@ -73,3 +74,22 @@ p {
 	margin: 20px auto 40px auto;
 	font-weight: normal;
 }
+
+/* menu */
+
+.foodmenu ul {
+	list-style: none;
+}
+.foodmenu li span {
+	float:right;
+}
+.foodmenu li em {
+	float:left; 
+	font-style:normal;
+}
+.foodmenu li {
+	width:80%; 
+	float:left
+}
+
+

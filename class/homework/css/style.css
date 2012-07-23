@@ -1,0 +1,112 @@
+body {
+	background-image: url("../img/bgheader.jpg"), url("../img/bgbody.jpg");
+	background-position: left top, left bottom;
+	background-repeat: repeat-x, repeat;
+}
+
+/* links */
+
+a:link {
+	color: #ee925d;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #ee925d;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #333333;
+	text-decoration: none;
+}
+
+a:active {
+	color: #ee925d;
+	text-decoration: none;
+}
+
+/* headers */
+
+h1 {
+	font-family: Helvetica, Arial, sans-serif;
+	color: #ee925d;
+	font-size: 1.7em;
+	line-height: 0.4em;
+}
+
+h2 {
+	font-family: Georgia, Times, serif;
+	font-style: italic;
+	color: #666666;
+	font-size: 0.9em;
+	line-height: 0.1em;
+}
+
+/* classes */
+
+.wrapper {
+	width: 580px;
+	margin: 0px auto;
+}
+
+.logo {
+	width: 580px;
+	margin: 0px;
+	padding: 0px;
+	text-align: left;
+}
+
+.post {
+	width: 580px;
+	margin: 0px auto;
+	padding: 0px;
+}
+
+.content {
+	font-family: Helvetica, Arial, sans-serif;
+	color: #333333;
+	font-size: 0.9em;
+	line-height: 1.4em;
+}
+
+.postfooter {
+	font-family: Georgia, Times, serif;
+	font-style: italic;
+	color: #666666;
+	font-size: 0.8em;
+	line-height: 1.5em;
+}
+
+.textdivider {
+	color: #cccccc;
+}
+
+.about {
+	font-family: Helvetica, Arial, sans-serif;
+	color: #333333;
+	font-size: 0.9em;
+	line-height: 1.4em;
+}
+
+/* single items */
+
+figure {
+	margin: 0px;
+	padding: 0px;
+}
+
+figcaption {
+	font-family: Georgia, Times, serif;
+	font-style: italic;
+	color: #999999;
+	font-size: 0.8em;
+	line-height: 1.9em;
+
+}
+
+footer {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 0.7em;
+}
+

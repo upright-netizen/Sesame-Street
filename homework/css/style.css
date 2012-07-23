@@ -5,7 +5,7 @@
 	text-align: center;
 }
 .SubHead {
-	margin: 0px;
+	margin: 10px 0px;
 	padding: 0px;
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
     font-weight: 400;
@@ -16,7 +16,7 @@
 }
 
 .Win {
-	margin: -3px 0px -12px 0px;
+	margin: -2px 0px -3px 0px;
 	padding: 0px;
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
     font-weight: 900;
@@ -29,7 +29,7 @@
 }
 
 .Lose {
-	margin: -3px 0px -12px 0px;
+	margin: -2px 0px -3px 0px;
 	padding: 0px;
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
     font-weight: 900;
@@ -44,7 +44,10 @@
 body {
 	background: -webkit-linear-gradient(top, white, #CACACA);
 	background-repeat:no-repeat;
-	margin-bottom: 800px;
+}
+
+html {
+	height: 100%;
 }
 
 .btn {
@@ -67,15 +70,17 @@ body {
 	padding:10px 35px;
 	text-decoration:none;
 	text-shadow:0px 1px 0px #e8e8e8;
-	margin: 0px auto;
+	margin: 30px auto;
 
 }.btn:hover {
 	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #548294), color-stop(1, #76b9cf) );
 	background:-moz-linear-gradient( center top, #548294 5%, #76b9cf 100% );
 	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#548294', endColorstr='#76b9cf');
 	background-color:#548294;
+	cursor: pointer;
+}
 
-}.btn:active {
+.btn:active {
 	position:relative;
 	top:1px;
 }
@@ -84,10 +89,11 @@ body {
 .center {
 	width: 835px;
 	margin: 0px auto;
+	text-align: center;
 }
 
 .doorList {
-	padding: 20px 0px;
+	padding: 20px 0px 0px 0px;
 }
 
 

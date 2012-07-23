@@ -1,5 +1,5 @@
 body {
-	background-color: RosyBrown;
+	background-color: OldLace;
 	/*background: url(/homework/flower-hill-tribe/images/Stripes.jpeg);*/
 }
 a:link {
@@ -15,41 +15,59 @@ a:visited {
 	background-color: white;
 	border-radius: 15px;
 }
-.events .event {
-	font-family: "SevenSixteen", sans-serif;
+.clear{
+	clear: both;
 }
-
-
-
-/*  Main Page Events */
-
-.main .event {
-  /*
-    Styles that apply to events on the main page
-  */
+.event-name {
+	font-family: "skinny", sans-serif;
+	font-size: 60px;
+	color: Purple;
+	margin: auto;
+	margin-bottom: 5px;
+	padding-bottom: 2px;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	text-align: right;
+	text-align: right;
 }
-
-
-
-
-
-
-/* Single Event event */
-.page .event {
-  /*
-    Styles that apply to single page events
-  */
+.events-list {
 
 }
+.event-list-style {
+	list-style: none;
+}
+.event-thumb {
+	margin: 5px;
+	text-align: center;
+}
+.event-thumb-img {
+	border-radius: 5px;
+	height: 600px;
+	width: 600px;
+	margin: 20px;
+}
+.event-details {
 
-
-
-
-
-
-/*----------------------------------------*/
-
-
-.coachella-2012 .event .title {
+}
+.event-description {
+	height: auto;
+	width: 1104px;
+	font-family: helvetica;
+	font-size: 18px;
+	line-height: 1.2;
+	margin: 20px;
+	float: left;	
+}
+.event-list {
+	font-family: "skinny", helvetica;
+	font-size: 40px;
+	margin: 5px;
+	text-align: center;
+}
+.event-links {
+	text-decoration: none;
+	text-align: left;
+	color: #D2691E;
 
 }

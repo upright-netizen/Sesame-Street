@@ -1,5 +1,5 @@
 body {
-	background-color: RosyBrown;
+	background-color: OldLace;
 	/*background: url(/homework/flower-hill-tribe/images/Stripes.jpeg);*/
 }
 a:link {
@@ -15,23 +15,42 @@ a:visited {
 	background-color: white;
 	border-radius: 15px;
 }
+.clear {
+	clear: both;
+}
 .title {
 	font-family: "skinny", sans-serif;
 	color: Brown;
 	font-size: 60px;
 	margin: auto;
+	padding: 20px;
+	text-align: center;
+}
+.about-details {
 }
 .about-description {
-	font-family: Qlassik;
-	color: SaddleBrown;
+	height: auto;
+	width: 860px;
+	font-family: helvetica;
 	font-size: 20px;
+	margin: 20px;
+	float: left;
+	line-height: 1.2;
+	text-decoration: none;
+}
+.about-thumb {
+	float:left;
 }
 .about-thumb-img {
 	height: 800px;
 	width: 1000px;
-	margin: 10px;
+	margin-left: 100px;
 	float: left;
+	border-radius: 5px;
 }
-.clear {
-	clear: both;
+.about-list-style {
+	list-style-type: none;
+}
+.about-details{
+	margin: 20px;
 }

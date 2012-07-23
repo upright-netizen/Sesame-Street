@@ -9,6 +9,7 @@
 	padding: 0;
 	text-align: center;
 }
+.active, 
 .main-navigation-links {
 	color: RosyBrown; 
 	height: 45px;
@@ -17,6 +18,9 @@
 	margin: 10px;
 	text-align: center;
 	text-decoration: none;
+}
+.active{
+	font-color: #D2691E;
 }
 .nav-thumb-img {
 	width: 1200px; 

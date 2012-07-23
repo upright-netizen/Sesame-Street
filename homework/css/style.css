@@ -1,28 +1,116 @@
-.MyName {
+.GameName {
+	margin: 50px 0px 0px 0px;
 	font-family: 'Arvo', serif;
-	font-size: 100px;
+	font-size: 87px;
 	text-align: center;
 }
-p {
+.SubHead {
+	margin: 0px;
+	padding: 0px;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-weight: 400;
+    font-style: italic;
+	font-size: 18px;
 	text-align: center;
+	color: #548294;
 }
+
+.Win {
+	margin: -3px 0px -12px 0px;
+	padding: 0px;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-weight: 900;
+    font-style: italic;
+	font-size: 30px;
+	text-transform:uppercase;
+	text-align: center;
+	color: white;
+	background: #548294;
+}
+
+.Lose {
+	margin: -3px 0px -12px 0px;
+	padding: 0px;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-weight: 900;
+    font-style: italic;
+	font-size: 30px;
+	text-transform:uppercase;
+	text-align: center;
+	color: white;
+	background: red;
+}
+
+body {
+	background: -webkit-linear-gradient(top, white, #CACACA);
+	background-repeat:no-repeat;
+	margin-bottom: 400px;
+}
+
+.btn {
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #76b9cf), color-stop(1, #548294) );
+	background:-moz-linear-gradient( center top, #76b9cf 5%, #548294 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#76b9cf', endColorstr='#548294');
+	background-color:#76b9cf;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #9c9c9c;
+	display:inline-block;
+	color:#333333;
+	font-family:Arial;
+	font-size:25px;
+	font-weight:bold;
+	padding:10px 35px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #e8e8e8;
+	margin: 0px auto;
+
+}.btn:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #548294), color-stop(1, #76b9cf) );
+	background:-moz-linear-gradient( center top, #548294 5%, #76b9cf 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#548294', endColorstr='#76b9cf');
+	background-color:#548294;
+
+}.btn:active {
+	position:relative;
+	top:1px;
+}
+
+
 .center {
-	width: 815px;
-	margin: 10px auto;
+	width: 850px;
+	padding-right: 15px;
+	margin: 0px auto;
 }
 
 .doorList {
-	padding: 0px;	
+	padding: 20px 0px;
 }
+
 
 .door {
 	display: inline-block;
-}
-
-.theDoors {
+	padding: 0px;
 	margin: 0px 20px;
+	box-shadow: 4px 3px 6px #555;
 }
 
-.theDoors:hover{
-	opacity: 0.5;
+.door:hover {
+	box-shadow: 6px 3px 10px #777;
 }
+
+.theDoors img{
+	margin-bottom: -5px;
+	border-left: 5px solid rgba(255, 255, 255, 0);
+
+}
+
+
+.theDoors:hover img{
+	border-left: 5px solid #00EDF7;
+}
+
